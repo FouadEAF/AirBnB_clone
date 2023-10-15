@@ -40,4 +40,3 @@ class HBNBCommand(cmd.Cmd):
     def emptyline(self):
         """ Do nothing when empty line present """
         pass
-
