@@ -35,5 +35,6 @@ class TestReview(unittest.TestCase):
         self.assertIsInstance(self.rvw.created_at, datetime.datetime)
         self.assertIsInstance(self.rvw.updated_at, datetime.datetime)
 
+
 if __name__ == '__main__':
     unittest.main()
