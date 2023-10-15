@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 """ This module isan entry point to the command interpreter """
 import cmd
 from models import storage
