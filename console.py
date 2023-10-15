@@ -15,7 +15,7 @@ import shlex
 
 class HBNBCommand(cmd.Cmd):
     """ The commands processor """
-    prompt = "(hbnb)"
+    prompt = "(EAF)"
     lst_classes = ['BaseModel', 'User', 'Amenity',
                    'Place', 'City', 'State', 'Review']
     lst_cmd = ['create', 'show', 'update', 'all', 'destroy', 'count']
