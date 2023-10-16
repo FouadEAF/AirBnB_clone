@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines the HBnB console."""
+""" This module is entry point of the command interpreter """
 import cmd
 import re
 from shlex import split
